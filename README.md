@@ -13,7 +13,7 @@
 3. Go inside "tryonn-backend" using terminal and run 'npm install'
 4. Create a file named '.env'
 5. Paste FAL_KEY=<YOUR_API_KEY> and save it
-6. Run'node server.js'
+6. Run 'node server.js'
 7. You will see a server running at port localhost:3400
 8. Open  Chrome -> chrome://extensions/ -> Enable developer mode
 9. Load unpacked -> select the folder "extension3"
