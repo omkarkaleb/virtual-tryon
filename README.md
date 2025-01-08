@@ -17,4 +17,4 @@
 7. You will see a server running at port localhost:3400
 8. Open  Chrome -> chrome://extensions/ -> Enable developer mode
 9. Load unpacked -> select the folder "extension3"
-10. Now you can use the extension that is installed
+10. Now you can use the extension that is installed.
