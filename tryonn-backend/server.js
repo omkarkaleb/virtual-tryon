@@ -12,6 +12,10 @@ console.log(process.env.FAL_KEY);
 app.use(express.json({ limit: '50mb' })); // Increase body size limit to 50MB
 app.use(express.urlencoded({ limit: '50mb', extended: true })); // For URL-encoded data
 
+
+app.get('/', (req, res) => {
+    res.send('Hello World!');
+});
 // Endpoint to handle try-on requests
 app.post('/tryon', async (req, res) => {
     const { userImageBase64, garmentImageBase64, description } = req.body;
